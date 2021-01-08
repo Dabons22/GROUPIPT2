@@ -14,4 +14,3 @@ namespace School_Website.Admin_page
 
         }
     }
-}
