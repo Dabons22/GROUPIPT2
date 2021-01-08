@@ -1,0 +1,40 @@
+﻿body,
+html {
+   height: 100%;
+   margin: 0;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+.heroContainer {
+   margin-top:35px;
+   background-image: url('../Pictures/Header.jpg');
+   height: 297px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:80%;
+   position: relative;
+   
+   top:-26px;
+   left:124px;
+}
+/*
+.heroCaption button {
+   border: none;
+   outline: none;
+   display: inline-block;
+   padding: 20px;
+   color: rgb(255, 255, 255);
+   opacity: 0.8;
+   font-size: 20px;
+   background-color: rgb(47, 151, 21);
+   text-align: center;
+   cursor: pointer;
+}.heroCaption button:hover {
+   opacity: 1;
+}*/

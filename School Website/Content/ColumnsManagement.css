@@ -1,0 +1,83 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px 0 42px;
+    width: 1005px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;    
+}
+
+  
+.ImageHW{ /*icon members*/
+    width:100px;
+    height:100px;
+    border-radius:20%;
+    position:center;
+}
+.CENTERING {
+    margin-left:9%;
+    text-align:center;
+    height: 346px;
+    margin-top: 98px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+  background-color: #188aea;    
+
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+ .columnA, .columnB, .columnC { 
+                float: left; 
+                width: 284px; 
+                padding: 15px; 
+               
+                margin-left:20px;
+                text-align:justify; 
+                background-color: #f1f1f1;
+                box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+            } 
+            h2 { 
+                color: #AAA53B; 
+                text-align:center; 
+            } 
+              
+            @media screen and (max-width:600px) { 
+                .columnA, .columnB, .columnC { 
+                    width: 50%; 
+                } 
+            } 
+            @media screen and (max-width:400px) { 
+                .columnA, .columnB, .columnC { 
+                    width: 100%; 
+                } 
+            } 

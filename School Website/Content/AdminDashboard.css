@@ -1,0 +1,75 @@
+﻿body {
+    padding: 1%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.left, .right,.subcom,.childs {
+    color: white;
+    padding: 10px;
+    margin-left:4px;
+    margin-top:4px;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    margin-left: 9%;
+    width: 50%;
+    height: 518px;
+    background-color: #C2A03A;
+}
+
+.right, .childs {
+    width: 29.6%;
+    height: 168px;
+    background-color: #B87D37;
+    float: left;
+    margin-right: 4%;
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.3);
+    
+}
+ .icon-containers {
+    object-fit:cover;
+    background:no-repeat;
+    float:left; 
+    width: 156px;
+    height: 150px;
+    margin-top: 0px;
+}
+.descCard {
+    box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
+    width: 121px;
+    background-color: #B87D37;
+    height: 157px;
+    float:right;
+}
+.childs {
+    background-color: #f8e22d;
+    margin-right: 2%;
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.3);
+}
+
+.subcom {
+    float: left;
+    margin-top: 10px;
+    background-color: #f8e22d;
+    margin-right: 2%;
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.3);
+    width: 95%;
+    height: 168px;
+}
+
+.containers {
+    margin-top: 60px;
+    height: 596px;
+    margin-left:15px;
+    margin:10px;
+}
+
+.containers:after {
+        clear: both;
+         }

@@ -1,0 +1,74 @@
+﻿.modal-window {
+  position: fixed;
+  background-color: rgba(200, 200, 200, 0.75);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window>div {
+  width: 462px;
+  position: relative;
+  margin: 10% auto;
+  background: #fff;
+  color: #444;
+    top: -40px;
+    left: 35px;
+    height: 445px;
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+  color:#f7b80a
+}
+.Lblleft {
+  border: 1px solid #c3c3c3;
+  margin:0px 2px 2px 2px;
+  text-align:right;
+    height: 151px;
+}
+.Lbllefts {
+  border: 1px solid #c3c3c3;
+  margin:0px 2px 2px 2px;
+  text-align:left;
+    height: 151px;
+}
+.containerRight {
+float:right;
+    margin-left: 186px;
+}.containerRight2nd {
+float:left;
+}

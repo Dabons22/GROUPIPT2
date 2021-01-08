@@ -1,0 +1,34 @@
+﻿.fileform {
+          height: 314px;
+          width: 80%;
+          margin-left: 25.6%;
+ }
+.Caption {
+font-size:medium;
+box-shadow:0px 2px 1px 1px rgba(216, 238, 123,0.2);
+text-align:left;
+width: 686px;
+margin-left:25.6%;
+}
+.Card {
+font-size:medium;
+box-shadow:0px 2px 1px 1px rgba(216, 238, 123,0.2);
+text-align:center;
+width: 618px;
+margin-left:25.6%;
+    height: 33px;
+}
+.Operations {
+font-size:medium;
+box-shadow:0px 2px 1px 1px rgba(0,0,0,0.2);
+text-align:left;
+width: 686px;
+margin-left:25.6%;
+    height: 46px;
+    margin-top: 138px;
+}
+
+.pas {
+   font-size: 60px;
+   font-weight: bolder;
+}
